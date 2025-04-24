@@ -1,0 +1,158 @@
+body {
+    background-color:white;
+}
+
+header {
+    position: relative;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Search */
+.container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#search-box {
+    position: relative;
+}
+
+#search-box input{
+    width: 500px;    
+    padding: 1rem 1rem 1rem 3rem;
+    border: 1px solid rgb(224, 218, 218);
+    border-radius: 200px;
+    background-color: white;
+    font-size: large;
+    margin-top: 5%;
+}
+
+#search-box input:hover{
+    cursor:text;
+}
+
+#icon {
+    position: absolute;
+    top: 55%;
+    left: 1rem;
+}
+
+#submit-box input, #lucky{
+    background-color: rgb(244, 243, 243);
+    border: 1px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+#submit-box #lucky,input:hover{
+    cursor: pointer;
+}
+
+h2 {
+    color: #d93025;
+}
+
+header .adv-link {
+    position: absolute;
+    left: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+header #logo {
+    position: absolute;
+}
+
+.advanced-container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.advanced-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.adv-search-box {
+    width: 400px;
+}
+
+.adv-search-box input{
+    border: 0.5px solid black;
+    padding: 0.4rem;
+}
+
+.adv-search-box input:hover{
+    cursor: text;
+}
+.adv-search-box #search1, #search2, #search3, #search4{
+    width: 96%;
+}
+
+.label {
+    width: 200px;
+}
+
+#adv-submit {
+    width: 1000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#adv-submit input {
+    border: 0.5px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: #4d90fe;
+    font-size: 16px;
+    color: white
+}
+
+#last-row {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#last-row input {
+    width: 45%;
+    
+}
+
+#last-row div {
+    width: 10%;
+    text-align: center;
+}

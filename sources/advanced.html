@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="adv-link">
+                <a href="index.html" "> Home</a>  
+                <a href="images.html" > Images</a>
+            </div>
+
+            <div class="logo">
+                <img src="../photos/Google-Logo.png" alt="google advanced" width="100px" height="auto">
+            </div>
+        </header>
+        <main>    
+            <h2>Google Advanced</h2>
+            <hr>
+            <div class="advanced-container">
+                <h3>Find page with...</h3>
+                <form id="advanced-input-box" action="https://google.com/search">
+                    <div class="advanced-input">
+                        <div class="label">
+                            <label for="search1"> all these words: </label>
+                        </div>
+
+                        <div class="adv-search-box">
+                            <input type="text"  id="search1" name="as_q">
+                        </div >
+                    </div>
+                    <br>
+                    <div class="advanced-input">
+                        <div class="label">
+                            <label for="search2"> this exact word or phrase: </label>
+                        </div>
+
+                        <div class="adv-search-box">
+                            <input type="text" id="search2" name="as_epq">
+                        </div>
+                    </div>
+                    <br>                    
+                    <div class="advanced-input">
+                        <div class="label">
+                            <label for="search3"> any of these words: </label>
+                        </div>
+
+                        <div class="adv-search-box">
+                            <input type="text" id="search3" name="as_oq">    
+                        </div>
+                    </div>
+                    <br>
+                    <div class="advanced-input">
+                        <div class="label">
+                            <label for="search4"> none of these words: </label>
+                        </div>
+
+                        <div class="adv-search-box">
+                            <input type="text" id="search4" name="as_eq">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="advanced-input">
+                        <div class="label">
+                            <label for="search5"> number ranging from: </label>
+                        </div>
+
+                        <div class="adv-search-box" id="last-row">
+                            <input type="text" id="search5" name="as_nlo">
+                            <div>to</div>
+                            <input type="text" id="search5" name="as_nhi">    
+                        </div>
+                    </div>
+                    <br>
+                    <div id="adv-submit">
+                        <input type="submit" value="Advanced search">
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
